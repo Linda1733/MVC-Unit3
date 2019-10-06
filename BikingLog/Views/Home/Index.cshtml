@@ -1,0 +1,25 @@
+﻿
+@model Trail[]
+
+@{
+    ViewBag.Title = "Trail Name";
+}
+
+<table>
+    <thead>
+        <tr><th>Name</th><th>Location</th><th>Miles</th><th>Difficulty</th></tr>
+    </thead>
+    <tbody>
+        @foreach (Trail t in Model)
+        {
+        <tr>
+            <td>@t.Name</td>
+            <td>@t.Location</td>
+            <td>@t.Miles</td>
+            <td>@t.DifficultyLevel</td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+   
