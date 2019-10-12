@@ -7,7 +7,7 @@
     <link href="~/css/styles.css" rel="stylesheet" />
     <title>@ViewBag.Title</title>
 </head>
-<body>
+<body class="grid-container">
     <header>
         <nav>
             <ul>
@@ -20,7 +20,7 @@
         @RenderBody()
     </div>
     <footer>
-        <p>Copyright &copy; 2019 | LINDA MULL </p>
+        <p>&copy;Copyright @DateTime.Now.Year  |  LINDA MULL </p>
     </footer>
     
 </body>
