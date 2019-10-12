@@ -24,6 +24,12 @@ namespace BikingLog
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseStaticFiles();
+                app.UseStatusCodePages();
+                app.UseMvc(routes =>
+                {
+
+                });
             }
 
             //app.Run(async (context) =>

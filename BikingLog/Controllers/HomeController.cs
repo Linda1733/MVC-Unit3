@@ -12,7 +12,12 @@ namespace BikingLog.Controllers
     {
         public ViewResult Index()
         {
+            return View();
+            
+        }
 
+        public ViewResult Trails()
+        {
             Trail[] trailArray =
             {
 
