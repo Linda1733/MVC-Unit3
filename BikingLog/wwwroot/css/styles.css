@@ -1,6 +1,7 @@
 ﻿
-
-
+html {
+    height: 100vh;
+}
 /******************************* LAYOUT PAGE  SETTINGS **************************/
 /*************** GENERAL SETTINGS ***********/
 body {
@@ -15,6 +16,7 @@ body {
         'header'
         'main'
         'footer';
+    height: 100vh;
 }
 
 
@@ -42,15 +44,15 @@ header {
     grid-area: header;
     background: #35424a;
     color: #fff;
-    padding-top: 15px;
-    border-bottom: #e8491d 3px solid;
+    padding-top: 10px;
+    border-bottom: #e8491d 2px solid;
 }
 
     header a {
         color: #fff;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 1.10em;
+        font-size: .90em;
     }
 
     header li {
@@ -91,7 +93,7 @@ footer {
     background: #35424a;
     color: #fff;
     border-top: #e8491d 3px solid;
-    font-size 1.25em;
+    font-size: .90em;
 }
 
 
@@ -99,7 +101,7 @@ footer {
 .background {
     background-image: url('../images/biking-unsplash.jpg');
     background-color: #ccc;
-    height: 600px;
+    height: 570px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;

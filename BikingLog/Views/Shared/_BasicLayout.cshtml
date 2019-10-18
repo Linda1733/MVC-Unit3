@@ -8,13 +8,19 @@
     <title>@ViewBag.Title</title>
 </head>
 <body class="grid-container">
+    
     <header>
-        <nav>
-            <ul>
-                <li><a asp-action="Index">Home</a></li>
-                <li><a asp-action="Trails">Trails</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Biking Log</h1>
+            <nav>
+                <ul>
+                    <li><a asp-action="Index">Home</a></li>
+                    <li><a asp-action="Trails">Trails</a></li>
+                </ul>
+            </nav>
+
+        </div>
+      
     </header>
     <div class="content">
         @RenderBody()
